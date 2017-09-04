@@ -33,8 +33,8 @@ public void paint(Graphics g){		// Swing 의 JFrame을 상속한 클래스에서
 public boolean Correct_clicked(int P_index){		// 클릭한 조각의 이동 가능 유무 반환(조각 위치 인덱스)
 public BufferedImage Make_White(){			// 빈 칸 이미지 반환
 public void Change_Image(int x, int y, int index){	// 조각 이미지 교환(이동)처리 함수(2차원 배열 x, 2차원 배열 y, 조각 위치 인덱스)
-public boolean Check_Image(){	// 조각 맞추기 완성 체크
-public void End_Game(){			// 게임 클리어
+public boolean Check_Image(){			// 조각 맞추기 완성 체크
+public void End_Game(){				// 게임 클리어
 public void mousePressed(MouseEvent e) {	// 마우스 클릭 이벤트 처리
 </code></pre>
 
